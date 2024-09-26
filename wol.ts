@@ -85,7 +85,6 @@ const createMagicPacket = (macAddress: string): Buffer => {
   const magicPacketPayload = 'ff'
     .repeat(6)
     .concat(macAddress.replaceAll(':', '').repeat(16))
-  console.log(magicPacketPayload);
   
   // Splitting the string into an array of string bytes
   const parsedMagicPacketPayload = magicPacketPayload
