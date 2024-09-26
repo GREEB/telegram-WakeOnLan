@@ -4,8 +4,8 @@ This is meant to be run on a SBC, this will simply do WOL in your network from t
 
 ## Setup
 
-1. Copy `example.env` to `.env` and add ur bot token.
-2. Copy `devices.example.json` to `devices.json` and add ur devices macaddr [here how you can find that](https://itssc.rpi.edu/hc/en-us/articles/360001995831-How-to-find-your-MAC-Address-for-MacOS-Linux-Windows)
+1. Copy `example.env` to `.env` and add your bot token [how to obtain bot token](https://core.telegram.org/bots/tutorial).
+2. Copy `devices.example.json` to `devices.json` and add your devices macaddr [here how you can find that](https://itssc.rpi.edu/hc/en-us/articles/360001995831-How-to-find-your-MAC-Address-for-MacOS-Linux-Windows)
 3. Get chat id by using command `/id`
 4. Put chatId into `.env` `AUTHED_CHAT`
 
