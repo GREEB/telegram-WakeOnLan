@@ -13,7 +13,7 @@ This is meant to be run on a SBC, this will simply do WOL in your network from t
 
  - to install :`pnpm install`
  - to run deving: `ts-node index.ts`
- - to run forever: use `nodemon`, `pm2` or any other tools
+ - to run forever: use `forever`, `pm2` or any other tools
  
 
 
