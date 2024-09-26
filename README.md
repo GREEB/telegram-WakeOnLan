@@ -31,7 +31,7 @@ This is good for a Plex setup at home that is sleeping, it may have auto sleep t
 - `wol.ts` wol code from [ts-wol](https://www.npmjs.com/package/ts-wol)
 - `devices.json` an object with key=name and value=macaddr
     - Example: 
-```
+```JSON
     [{
         "pc1": "00:00:00:00:00:00",
         "pc2": "00:00:00:00:00:00"
