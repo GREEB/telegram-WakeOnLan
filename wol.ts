@@ -84,8 +84,9 @@ const createMagicPacket = (macAddress: string): Buffer => {
   // Creating a Wake-On-Lan datagram string (no spaces)
   const magicPacketPayload = 'ff'
     .repeat(6)
-    .concat(macAddress.replace(':', '').repeat(16))
-
+    .concat(macAddress.replaceAll(':', '').repeat(16))
+  console.log(magicPacketPayload);
+  
   // Splitting the string into an array of string bytes
   const parsedMagicPacketPayload = magicPacketPayload
     .match(/.{1,2}/g)
