@@ -18,6 +18,7 @@ This is meant to be run on a SBC, this will simply do WOL in your network from t
 ## Features
 
 `/wake` command will show you buttons and you can wake up a server
+
 `/status` command will let you ping an ip
 
 ## intended usage
