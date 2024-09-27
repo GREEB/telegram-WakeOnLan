@@ -34,14 +34,14 @@ This is good for a Plex setup at home that is sleeping, it may have auto sleep t
 ```JSON
 [
     {
-        "pc1": {
-            "mac": "00:00:00:00:00:00",
-            "ip": "192.168.0.1"
-        },
-        "pc2": {
-            "mac": "00:00:00:00:00:00",
-            "ip": "192.168.0.2"
-        }
+        "name": "pc1",
+        "mac": "00:00:00:00:00:00",
+        "ip": "192.168.0.1"
+    },
+    {
+        "name": "pc1",
+        "mac": "00:00:00:00:00:00",
+        "ip": "192.168.0.2"
     }
 ]
 ```
