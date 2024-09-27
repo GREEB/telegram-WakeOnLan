@@ -34,15 +34,10 @@ export const wol = (macAddress: string) => {
     if(err) {
       console.log(err.message)
     }
-    else {
-      console.log('The awake signal was sent')
-    }
-
     client.close()
   })
 
   client.once('listening', () => {
-    console.log('The socket was successfully bootstrapped')
     client.setBroadcast(true)
   })
 
@@ -51,9 +46,6 @@ export const wol = (macAddress: string) => {
     client.close()
   })
 
-  client.on('close', () => {
-    console.log('The socket was closed')
-  })
 }
 
 /**

@@ -11,9 +11,15 @@ importers:
       '@types/node':
         specifier: ^22.7.2
         version: 22.7.2
+      '@types/ping':
+        specifier: ^0.4.4
+        version: 0.4.4
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
+      ping:
+        specifier: ^0.4.4
+        version: 0.4.4
       telegraf:
         specifier: ^4.16.3
         version: 4.16.3
@@ -28,6 +34,9 @@ packages:
 
   '@types/node@22.7.2':
     resolution: {integrity: sha512-866lXSrpGpgyHBZUa2m9YNWqHDjjM0aBTJlNtYaGEw4rqY/dcD7deRVTbBBAJelfA7oaGDbNftXF/TL/A6RgoA==}
+
+  '@types/ping@0.4.4':
+    resolution: {integrity: sha512-ifvo6w2f5eJYlXm+HiVx67iJe8WZp87sfa683nlqED5Vnt9Z93onkokNoWqOG21EaE8fMxyKPobE+mkPEyxsdw==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -79,6 +88,10 @@ packages:
     resolution: {integrity: sha512-+/wmHtzJuWii1sXn3HCuH/FTwGhrp4tmJTxSKJbfS+vkipci6osxXM5mY0jUiRzWKMTgUT8l7HFbeSwZAynqHw==}
     engines: {node: '>=10'}
 
+  ping@0.4.4:
+    resolution: {integrity: sha512-56ZMC0j7SCsMMLdOoUg12VZCfj/+ZO+yfOSjaNCRrmZZr6GLbN2X/Ui56T15dI8NhiHckaw5X2pvyfAomanwqQ==}
+    engines: {node: '>=4.0.0'}
+
   safe-compare@1.1.4:
     resolution: {integrity: sha512-b9wZ986HHCo/HbKrRpBJb2kqXMK9CEWIE1egeEvZsYn69ay3kdfl9nG3RyOcR+jInTDf7a86WQ1d4VJX7goSSQ==}
 
@@ -116,6 +129,8 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
+  '@types/ping@0.4.4': {}
+
   abort-controller@3.0.0:
     dependencies:
       event-target-shim: 5.0.1
@@ -146,6 +161,8 @@ snapshots:
       whatwg-url: 5.0.0
 
   p-timeout@4.1.0: {}
+
+  ping@0.4.4: {}
 
   safe-compare@1.1.4:
     dependencies:

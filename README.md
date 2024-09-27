@@ -15,11 +15,10 @@ This is meant to be run on a SBC, this will simply do WOL in your network from t
  - to run deving: `ts-node index.ts`
  - to run forever: use `forever`, `pm2` or any other tools
  
-
-
-## Usage
+## Features
 
 `/wake` command will show you buttons and you can wake up a server
+`/status` command will let you ping an ip
 
 ## intended usage
 
@@ -32,10 +31,18 @@ This is good for a Plex setup at home that is sleeping, it may have auto sleep t
 - `devices.json` an object with key=name and value=macaddr
     - Example: 
 ```JSON
-    [{
-        "pc1": "00:00:00:00:00:00",
-        "pc2": "00:00:00:00:00:00"
-    }]
+[
+    {
+        "pc1": {
+            "mac": "00:00:00:00:00:00",
+            "ip": "192.168.0.1"
+        },
+        "pc2": {
+            "mac": "00:00:00:00:00:00",
+            "ip": "192.168.0.2"
+        }
+    }
+]
 ```
 
 ## Credit
